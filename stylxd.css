@@ -2,19 +2,19 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
-    background-image: url(https://mapy.com.pl/wp-content/uploads/2022/03/05-mapa-fizyczna-swiata-3D-classic_140x90_druk-scaled.jpg); /* Ścieżka do obrazu mapy świata */
+    background-image: url(https://mapy.com.pl/wp-content/uploads/2022/03/05-mapa-fizyczna-swiata-3D-classic_140x90_druk-scaled.jpg);
  
-        background-size: cover; /* Dopasowanie obrazu do wielkości okna przeglądarki */
-        background-position: top center; /* Wyśrodkowanie obrazu do góry */
+        background-size: cover; 
+        background-position: top center; 
 
     
 }
 
 .container {
     width: 70%;
-    margin: auto; /* Wyśrodkowanie poziome */
+    margin: auto; 
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Dodanie tła z przezroczystością, aby zawartość była czytelna */
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 
