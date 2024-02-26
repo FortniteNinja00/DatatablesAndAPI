@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    background-image: url(https://mapy.com.pl/wp-content/uploads/2022/03/05-mapa-fizyczna-swiata-3D-classic_140x90_druk-scaled.jpg); /* Ścieżka do obrazu mapy świata */
+ 
+        background-size: cover; /* Dopasowanie obrazu do wielkości okna przeglądarki */
+        background-position: top center; /* Wyśrodkowanie obrazu do góry */
+
+    
+}
+
+.container {
+    width: 70%;
+    margin: auto; /* Wyśrodkowanie poziome */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Dodanie tła z przezroczystością, aby zawartość była czytelna */
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+thead th {
+    background-color: #3498db; 
+    color: #fff;
+    border-bottom: 2px solid #2980b9; 
+    padding: 10px;
+    text-align: left;
+}
+
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #ecf0f1;
+}
+
+
+tbody tr:hover {
+    background-color: #d4e6f1; 
+}
+
